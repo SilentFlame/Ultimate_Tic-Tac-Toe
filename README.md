@@ -33,5 +33,5 @@ over.
 
 ![win sets](images/winning.png)  
 #### Time Limit ####
-- You need to return a valid move from your move function within 12 seconds(when playing against **Random_Player**). If the time exceeds 12 seconds for a particular move, then the match will be forfeited and the opponent will win by default.
+- You need to return a valid move from your move function within 12 seconds(when playing against Random_Player). If the time exceeds 12 seconds for a particular move, then the match will be forfeited and the opponent will win by default.
 ------------------------------------------------------
