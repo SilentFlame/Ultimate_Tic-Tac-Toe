@@ -16,10 +16,7 @@ In case of any queries, please post on moodle.iiit.ac.in
 import sys
 import random
 import signal
-import team77
-import latest
-import team20
-import team9
+import Player
 
 
 class TimedOutExc(Exception):
@@ -403,11 +400,11 @@ if __name__ == '__main__':
 	obj2 = ''
 	option = sys.argv[1]
 	if option == '1':
-		obj1 = team77.Player77()
-		obj2 = team20.Player20()
+		obj1 = Player1
+		obj2 = Player2
 
 	elif option == '2':
-		obj1 = Player77()
+		obj1 = Player.Player()
 		obj2 = ManualPlayer()
 	elif option == '3':
 		obj1 = ManualPlayer()
@@ -418,8 +415,6 @@ if __name__ == '__main__':
 
 	num = random.uniform(0,1)
 	if num > 0.5:
-        	print "Player20=X"
 		simulate(obj2, obj1)
 	else:
-        	print "Player77=X"
 		simulate(obj1, obj2)

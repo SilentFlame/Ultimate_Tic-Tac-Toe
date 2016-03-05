@@ -7,7 +7,7 @@ import random
 import copy
 import sys
 
-class Player77():
+class Player():
 
 	def __init__(self):
 		self.APPROXIMATE_WIN_SCORE = 7
