@@ -6,7 +6,8 @@
 - Ultimate TicTacToe is an extension of the 3x3 TicTacToe, where there are 9 blocks each having 3x3 cells.
 - The marker for the first player is **‘X’** and for the second player is **‘O’**.
 - The objective of the game is to win the board by making a legitimate pattern of the blocks.  
-- 
+
+
 #### To be played by three different modes ####
 1. Random_Player1 v/s Random_Player2
 2. Random_Player v/s Human
