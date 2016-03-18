@@ -39,3 +39,9 @@ over.
 - You need to return a valid move from your move function within 12 seconds(when playing against Random_Player). If the time exceeds 12 seconds for a particular move, then the match will be forfeited and the opponent will win by default.  
 
 ------------------------------------------------------
+#### How to run game ###
+- keep the evaluator and the player code in the same diresctory.
+- run `python evaluator_code.py x` on your terminal(assuming you on linux, else search for running python file in your system.)
+- provide `x` as `1/2/3` as pet the mode yoy want to play.  
+
+## Try and Beat my bot ;) ##
